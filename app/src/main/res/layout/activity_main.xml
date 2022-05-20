@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center_horizontal">
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--  Button to view users from link screen -->
+
+    <Button android:id="@+id/btnViewLinkUsers"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="View Users From Link"
+
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to view users from database screen -->
+
+    <Button android:id="@+id/btnViewDatabaseUsers"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="View Users From Database"
+
+        android:layout_marginTop="25dip"/>
+
+
+
+    <!--  Button to create a new user screen -->
+
+    <Button android:id="@+id/btnCreateUser"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Add New User"
+
+        android:layout_marginTop="25dip"/>
+
+</LinearLayout>
